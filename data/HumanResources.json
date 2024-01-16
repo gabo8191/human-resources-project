@@ -1,0 +1,667 @@
+{
+    "Teams": [
+        {
+            "nameTeam": "Equipo backend",
+            "areaTeam": "Desarrollo",
+            "idTeam": "1",
+            "leaderTeam": {
+                "name": "Juan",
+                "lastName": "Perez",
+                "age": 22,
+                "gender": "Masculino",
+                "id": 1234567,
+                "email": "luis@example.com1",
+                "phone": 5678901234,
+                "address": "Avenida 5 # 5-5",
+                "city": "Cali",
+                "country": "Colombia",
+                "yearBirth": 2001,
+                "monthBirth": 1,
+                "dayBirth": 3,
+                "jobEmployee": {
+                    "area": "Desarrollo",
+                    "position": "Backend Developer",
+                    "isAdmin": true,
+                    "isLeader": true
+                },
+                "bankEmployee": {
+                    "bank": "Banco de Bogota",
+                    "accountType": "Ahorros",
+                    "accountNumber": 5678901234
+                },
+                "benefitsEmployee": {
+                    "healthPrepaid": true,
+                    "EPS": "Sura",
+                    "productivityBonusesPercent": 10.0
+                },
+                "vacationsEmployee": {
+                    "vacationsDays": -14,
+                    "vacationsTaken": 8
+                },
+                "salaryEmployee": {
+                    "salaryGross": 900000,
+                    "auxTransport": 140606,
+                    "healthContribution": 36000,
+                    "pensionContribution": 36000,
+                    "extraHoursDays": 2,
+                    "extraHoursNight": 1,
+                    "extraHoursFestiveDay": 0,
+                    "extraHoursFestiveNight": 0,
+                    "valueTotalExtraHours": 25376,
+                    "salaryNet": 1083982
+                },
+                "educationEmployee": {
+                    "educationLevel": "Profesional",
+                    "educationTitle": "Ciencias de la computaci�n cuantica",
+                    "educationInstitution": "Universidad Nacional",
+                    "educationYear": 2015
+                }
+            },
+            "membersTeam": [
+                {
+                    "name": "Luis",
+                    "lastName": "Gonzalez",
+                    "age": 43,
+                    "gender": "Masculino",
+                    "id": 12345672,
+                    "email": "luisg@example.com",
+                    "phone": 8901234567,
+                    "address": "Calle 9 # 9-9",
+                    "city": "Bogota",
+                    "country": "Colombia",
+                    "yearBirth": 1978,
+                    "monthBirth": 5,
+                    "dayBirth": 12,
+                    "jobEmployee": {
+                        "position": "Backend Developer",
+                        "isAdmin": false,
+                        "isLeader": false
+                    },
+                    "bankEmployee": {
+                        "bank": "Banco de Bogota",
+                        "accountType": "Ahorros",
+                        "accountNumber": 8901234567
+                    },
+                    "benefitsEmployee": {
+                        "healthPrepaid": false,
+                        "productivityBonusesPercent": 10.0
+                    },
+                    "vacationsEmployee": {
+                        "vacationsDays": 0,
+                        "vacationsTaken": 1
+                    },
+                    "salaryEmployee": {
+                        "salaryGross": 800000,
+                        "auxTransport": 140606,
+                        "healthContribution": 32000,
+                        "pensionContribution": 32000,
+                        "extraHoursDays": 1,
+                        "extraHoursNight": 1,
+                        "extraHoursFestiveDay": 1,
+                        "extraHoursFestiveNight": 1,
+                        "valueTotalExtraHours": 36250,
+                        "salaryNet": 992856
+                    },
+                    "educationEmployee": {
+                        "educationLevel": "Profesional",
+                        "educationTitle": "Ingeniero de Sistemas y Computación",
+                        "educationInstitution": "Univesidad Pedagogica y Tecnologica de Colombia",
+                        "educationYear": 2019
+                    }
+                }
+            ]
+        },
+        {
+            "nameTeam": "Desarrollo Frontend A",
+            "areaTeam": "Desarrollo",
+            "idTeam": "987654321",
+            "leaderTeam": {
+                "name": "Laura",
+                "lastName": "Martinez",
+                "age": 27,
+                "gender": "Femenino",
+                "id": 345678901,
+                "email": "laura@example.com",
+                "phone": 6789012345,
+                "address": "Calle 3 # 3-3",
+                "city": "Barranquilla",
+                "country": "Colombia",
+                "yearBirth": 1996,
+                "monthBirth": 3,
+                "dayBirth": 10,
+                "jobEmployee": {
+                    "area": "Desarrollo",
+                    "position": "Frontend Developer",
+                    "isAdmin": false,
+                    "isLeader": true
+                },
+                "bankEmployee": {
+                    "bank": "BBVA",
+                    "accountType": "Corriente",
+                    "accountNumber": 6789012345
+                },
+                "benefitsEmployee": {
+                    "healthPrepaid": true,
+                    "EPS": "Sura",
+                    "productivityBonusesPercent": 10.0
+                },
+                "vacationsEmployee": {
+                    "vacationsDays": 11,
+                    "vacationsTaken": 2
+                },
+                "salaryEmployee": {
+                    "salaryGross": 900000,
+                    "auxTransport": 140606,
+                    "healthContribution": 36000,
+                    "pensionContribution": 36000,
+                    "extraHoursDays": 2,
+                    "extraHoursNight": 1,
+                    "extraHoursFestiveDay": 0,
+                    "extraHoursFestiveNight": 0,
+                    "valueTotalExtraHours": 25376,
+                    "salaryNet": 1083982
+                },
+                "educationEmployee": {
+                    "educationLevel": "Profesional",
+                    "educationTitle": "Ciencias de la Computación",
+                    "educationInstitution": "Universidad de los Andes",
+                    "educationYear": 2015
+                }
+            },
+            "membersTeam": [
+                {
+                    "name": "Juan",
+                    "lastName": "Gomez",
+                    "age": 25,
+                    "gender": "Masculino",
+                    "id": 1122334455,
+                    "email": "juan@example.com",
+                    "phone": 1234567890,
+                    "address": "Calle 3 # 3-3",
+                    "city": "Bogota",
+                    "country": "Colombia",
+                    "yearBirth": 1998,
+                    "monthBirth": 8,
+                    "dayBirth": 12,
+                    "jobEmployee": {
+                        "area": "Desarrollo",
+                        "position": "Frontend Developer",
+                        "isAdmin": false,
+                        "isLeader": false
+                    },
+                    "bankEmployee": {
+                        "bank": "Bancolombia",
+                        "accountType": "Ahorros",
+                        "accountNumber": 1122334455
+                    },
+                    "benefitsEmployee": {
+                        "healthPrepaid": true,
+                        "EPS": "Sura",
+                        "productivityBonusesPercent": 10.0
+                    },
+                    "vacationsEmployee": {
+                        "vacationsDays": 5,
+                        "vacationsTaken": 5
+                    },
+                    "salaryEmployee": {
+                        "salaryGross": 800000,
+                        "auxTransport": 140606,
+                        "healthContribution": 32000,
+                        "pensionContribution": 32000,
+                        "extraHoursDays": 2,
+                        "extraHoursNight": 1,
+                        "extraHoursFestiveDay": 0,
+                        "extraHoursFestiveNight": 0,
+                        "valueTotalExtraHours": 25376,
+                        "salaryNet": 981982
+                    },
+                    "educationEmployee": {
+                        "educationLevel": "Universitario",
+                        "educationTitle": "Ingeniero de Sistemas",
+                        "educationInstitution": "Universidad Nacional",
+                        "educationYear": 2015
+                    }
+                },
+                {
+                    "name": "Ana",
+                    "lastName": "Lopez",
+                    "age": 30,
+                    "gender": "Femenino",
+                    "id": 9988776655,
+                    "email": "ana@example.com",
+                    "phone": 9876543210,
+                    "address": "Carrera 4 # 4-4",
+                    "city": "Medellin",
+                    "country": "Colombia",
+                    "yearBirth": 1993,
+                    "monthBirth": 2,
+                    "dayBirth": 28,
+                    "jobEmployee": {
+                        "area": "Desarrollo",
+                        "position": "Frontend Developer",
+                        "isAdmin": false,
+                        "isLeader": false
+                    },
+                    "bankEmployee": {
+                        "bank": "Davivienda",
+                        "accountType": "Corriente",
+                        "accountNumber": 9988776655
+                    },
+                    "benefitsEmployee": {
+                        "healthPrepaid": true,
+                        "EPS": "Sura",
+                        "productivityBonusesPercent": 10.0
+                    },
+                    "vacationsEmployee": {
+                        "vacationsDays": 4,
+                        "vacationsTaken": 8
+                    },
+                    "salaryEmployee": {
+                        "salaryGross": 700000,
+                        "auxTransport": 140606,
+                        "healthContribution": 28000,
+                        "pensionContribution": 28000,
+                        "extraHoursDays": 2,
+                        "extraHoursNight": 1,
+                        "extraHoursFestiveDay": 0,
+                        "extraHoursFestiveNight": 0,
+                        "valueTotalExtraHours": 25376,
+                        "salaryNet": 879982
+                    },
+                    "educationEmployee": {
+                        "educationLevel": "Profesional",
+                        "educationTitle": "Ingeniero de Sistemas",
+                        "educationInstitution": "Universidad Nacional",
+                        "educationYear": 2011
+                    }
+                },
+                {
+                    "name": "Maria",
+                    "lastName": "Moreno",
+                    "age": 30,
+                    "gender": "Femenino",
+                    "id": 44556677881,
+                    "email": "mmoreno@example.com",
+                    "phone": 12312312,
+                    "address": "Carrera 4 # 4-4",
+                    "city": "Medellin",
+                    "country": "Colombia",
+                    "yearBirth": 1977,
+                    "monthBirth": 3,
+                    "dayBirth": 10,
+                    "jobEmployee": {
+                        "area": "Desarrollo",
+                        "position": "Frontend Developer",
+                        "isAdmin": false,
+                        "isLeader": false
+                    },
+                    "bankEmployee": {
+                        "bank": "Davivienda",
+                        "accountType": "Corriente",
+                        "accountNumber": 44556677881
+                    },
+                    "benefitsEmployee": {
+                        "healthPrepaid": true,
+                        "productivityBonusesPercent": 12.0
+                    },
+                    "vacationsEmployee": {
+                        "vacationsDays": 11,
+                        "vacationsTaken": 1
+                    },
+                    "salaryEmployee": {
+                        "salaryGross": 100000,
+                        "auxTransport": 140606,
+                        "healthContribution": 4000,
+                        "pensionContribution": 4000,
+                        "extraHoursDays": 0,
+                        "extraHoursNight": 0,
+                        "extraHoursFestiveDay": 0,
+                        "extraHoursFestiveNight": 0,
+                        "valueTotalExtraHours": 0,
+                        "salaryNet": 244606
+                    },
+                    "educationEmployee": {
+                        "educationLevel": "Posgrado",
+                        "educationTitle": "Esp. en Ingeniería de Software",
+                        "educationInstitution": "Universidad Nacional",
+                        "educationYear": 2011
+                    }
+                }
+            ]
+        },
+        {
+            "nameTeam": "Sin grupo",
+            "areaTeam": "Sin area",
+            "idTeam": "0",
+            "leaderTeam": {
+                "name": "Sin grupo",
+                "lastName": "Sin grupo",
+                "id": 0
+            },
+            "membersTeam": [
+                {
+                    "name": "Andres",
+                    "lastName": "Sanchez",
+                    "age": 35,
+                    "gender": "Masculino",
+                    "id": 98821312,
+                    "email": "andresss@example.com",
+                    "phone": 123123123,
+                    "address": "Calle 3 # 3-3",
+                    "city": "Bogota",
+                    "country": "Colombia",
+                    "yearBirth": 1986,
+                    "monthBirth": 3,
+                    "dayBirth": 10,
+                    "jobEmployee": {
+                        "area": "Desarrollo",
+                        "position": "Backend Developer",
+                        "isAdmin": false,
+                        "isLeader": false
+                    },
+                    "bankEmployee": {
+                        "bank": "Banco de Bogota",
+                        "accountType": "Ahorros",
+                        "accountNumber": 98821312
+                    },
+                    "benefitsEmployee": {
+                        "healthPrepaid": true,
+                        "productivityBonusesPercent": 12.0
+                    },
+                    "vacationsEmployee": {
+                        "vacationsDays": 11,
+                        "vacationsTaken": 1
+                    },
+                    "salaryEmployee": {
+                        "salaryGross": 123123,
+                        "auxTransport": 140606,
+                        "healthContribution": 4924,
+                        "pensionContribution": 4924,
+                        "extraHoursDays": 0,
+                        "extraHoursNight": 0,
+                        "extraHoursFestiveDay": 0,
+                        "extraHoursFestiveNight": 0,
+                        "valueTotalExtraHours": 0,
+                        "salaryNet": 268655
+                    },
+                    "educationEmployee": {
+                        "educationLevel": "Posgrado",
+                        "educationTitle": "Esp. en Bases de Datos",
+                        "educationInstitution": "Universidad de los Andes",
+                        "educationYear": 2011
+                    }
+                },
+                {
+                    "name": "Fernando",
+                    "lastName": "Lopez",
+                    "age": 22,
+                    "gender": "Masculino",
+                    "id": 33234234,
+                    "email": "flopez@examples.com",
+                    "phone": 123123123,
+                    "address": "Calle 3 # 3-3",
+                    "city": "Bogota",
+                    "country": "Colombia",
+                    "yearBirth": 1999,
+                    "monthBirth": 3,
+                    "dayBirth": 10,
+                    "jobEmployee": {
+                        "position": "Project Manager",
+                        "isAdmin": false,
+                        "isLeader": false
+                    },
+                    "bankEmployee": {
+                        "bank": "Banco de Bogota",
+                        "accountType": "Ahorros",
+                        "accountNumber": 33234234
+                    },
+                    "benefitsEmployee": {
+                        "healthPrepaid": false,
+                        "productivityBonusesPercent": 1.0
+                    },
+                    "vacationsEmployee": {
+                        "vacationsDays": 0,
+                        "vacationsTaken": 1
+                    },
+                    "salaryEmployee": {
+                        "salaryGross": 10000,
+                        "auxTransport": 140606,
+                        "healthContribution": 400,
+                        "pensionContribution": 400,
+                        "extraHoursDays": 1,
+                        "extraHoursNight": 1,
+                        "extraHoursFestiveDay": 1,
+                        "extraHoursFestiveNight": 1,
+                        "valueTotalExtraHours": 36250,
+                        "salaryNet": 186156
+                    },
+                    "educationEmployee": {
+                        "educationLevel": "Universitario",
+                        "educationTitle": "Ingeniero de Sistemas",
+                        "educationInstitution": "Universidad Nacional",
+                        "educationYear": 2015
+                    }
+                },
+                {
+                    "name": "Laura",
+                    "lastName": "Gonzalez",
+                    "age": 26,
+                    "gender": "Femenino",
+                    "id": 123456745,
+                    "email": "laura@example.com12",
+                    "phone": 6789012345,
+                    "address": "Calle 6 # 6-6",
+                    "city": "Barranquilla",
+                    "country": "Colombia",
+                    "yearBirth": 1996,
+                    "monthBirth": 12,
+                    "dayBirth": 15,
+                    "jobEmployee": {
+                        "area": "Desarrollo",
+                        "position": "Frontend Developer",
+                        "isAdmin": true,
+                        "isLeader": false
+                    },
+                    "bankEmployee": {
+                        "bank": "BBVA",
+                        "accountType": "Corriente",
+                        "accountNumber": 5544332211
+                    },
+                    "benefitsEmployee": {
+                        "healthPrepaid": true,
+                        "EPS": "Sura",
+                        "productivityBonusesPercent": 10.0
+                    },
+                    "vacationsEmployee": {
+                        "vacationsDays": 13,
+                        "vacationsTaken": 2
+                    },
+                    "salaryEmployee": {
+                        "salaryGross": 900000,
+                        "auxTransport": 140606,
+                        "healthContribution": 36000,
+                        "pensionContribution": 36000,
+                        "extraHoursDays": 2,
+                        "extraHoursNight": 1,
+                        "extraHoursFestiveDay": 0,
+                        "extraHoursFestiveNight": 0,
+                        "valueTotalExtraHours": 25376,
+                        "salaryNet": 1083982
+                    },
+                    "educationEmployee": {
+                        "educationLevel": "Universitario",
+                        "educationTitle": "Ingeniero de Sistemas",
+                        "educationInstitution": "Universidad Nacional",
+                        "educationYear": 2015
+                    }
+                },
+                {
+                    "name": "Pedro",
+                    "lastName": "Martinez",
+                    "age": 32,
+                    "gender": "Masculino",
+                    "id": 3322114455,
+                    "email": "pedro@example.com",
+                    "phone": 7890123456,
+                    "address": "Carrera 8 # 8-8",
+                    "city": "Cartagena",
+                    "country": "Colombia",
+                    "yearBirth": 1989,
+                    "monthBirth": 9,
+                    "dayBirth": 25,
+                    "jobEmployee": {
+                        "area": "Desarrollo",
+                        "position": "Backend Developer",
+                        "isAdmin": false,
+                        "isLeader": false
+                    },
+                    "bankEmployee": {
+                        "bank": "Scotiabank",
+                        "accountType": "Ahorros",
+                        "accountNumber": 3322114455
+                    },
+                    "benefitsEmployee": {
+                        "healthPrepaid": true,
+                        "EPS": "Sura",
+                        "productivityBonusesPercent": 10.0
+                    },
+                    "vacationsEmployee": {
+                        "vacationsDays": 5,
+                        "vacationsTaken": 5
+                    },
+                    "salaryEmployee": {
+                        "salaryGross": 900000,
+                        "auxTransport": 140606,
+                        "healthContribution": 36000,
+                        "pensionContribution": 36000,
+                        "extraHoursDays": 2,
+                        "extraHoursNight": 1,
+                        "extraHoursFestiveDay": 0,
+                        "extraHoursFestiveNight": 0,
+                        "valueTotalExtraHours": 25376,
+                        "salaryNet": 1083982
+                    },
+                    "educationEmployee": {
+                        "educationLevel": "Universitario",
+                        "educationTitle": "Ingeniero de Sistemas y Computación",
+                        "educationInstitution": "Universidad de los Andes",
+                        "educationYear": 2015
+                    }
+                }
+            ]
+        },
+        {
+            "nameTeam": "pruebas",
+            "areaTeam": "pruebas",
+            "idTeam": "12312",
+            "leaderTeam": {
+                "name": "Maria",
+                "lastName": "Castillo",
+                "age": 26,
+                "gender": "Femenino",
+                "id": 987654321,
+                "email": "laura@example.com",
+                "phone": 6789012345,
+                "address": "Calle 6 # 6-612312",
+                "city": "Barranquilla",
+                "country": "Colombia",
+                "yearBirth": 2,
+                "monthBirth": 12,
+                "dayBirth": 15,
+                "jobEmployee": {
+                    "area": "Desarrollo",
+                    "position": "Frontend Developer",
+                    "isAdmin": false,
+                    "isLeader": true
+                },
+                "bankEmployee": {
+                    "bank": "BBVA",
+                    "accountType": "Corriente",
+                    "accountNumber": 5544332211
+                },
+                "benefitsEmployee": {
+                    "healthPrepaid": true,
+                    "EPS": "Sura",
+                    "productivityBonusesPercent": 10.0
+                },
+                "vacationsEmployee": {
+                    "vacationsDays": 13,
+                    "vacationsTaken": 2
+                },
+                "salaryEmployee": {
+                    "salaryGross": 900000,
+                    "auxTransport": 140606,
+                    "healthContribution": 36000,
+                    "pensionContribution": 36000,
+                    "extraHoursDays": 2,
+                    "extraHoursNight": 1,
+                    "extraHoursFestiveDay": 0,
+                    "extraHoursFestiveNight": 0,
+                    "valueTotalExtraHours": 25376,
+                    "salaryNet": 1083982
+                },
+                "educationEmployee": {
+                    "educationLevel": "Universitario",
+                    "educationTitle": "Ingeniero de Sistemas",
+                    "educationInstitution": "Universidad Nacional",
+                    "educationYear": 2015
+                }
+            },
+            "membersTeam": [
+                {
+                    "name": "Kevin",
+                    "lastName": "Gonzalez",
+                    "age": 31,
+                    "gender": "Masculino",
+                    "id": 55555555,
+                    "email": "kevink@example.com",
+                    "phone": 6789012345,
+                    "address": "Calle 6 # 6-6",
+                    "city": "Barranquilla",
+                    "country": "Colombia",
+                    "yearBirth": 1990,
+                    "monthBirth": 12,
+                    "dayBirth": 15,
+                    "jobEmployee": {
+                        "area": "Desarrollo",
+                        "position": "Frontend Developer",
+                        "isAdmin": false,
+                        "isLeader": false
+                    },
+                    "bankEmployee": {
+                        "bank": "BBVA",
+                        "accountType": "Corriente",
+                        "accountNumber": 5544332211
+                    },
+                    "benefitsEmployee": {
+                        "healthPrepaid": true,
+                        "EPS": "Sura",
+                        "productivityBonusesPercent": 12.0
+                    },
+                    "vacationsEmployee": {
+                        "vacationsDays": 11,
+                        "vacationsTaken": 2
+                    },
+                    "salaryEmployee": {
+                        "salaryGross": 100000,
+                        "auxTransport": 140606,
+                        "healthContribution": 4000,
+                        "pensionContribution": 4000,
+                        "extraHoursDays": 0,
+                        "extraHoursNight": 0,
+                        "extraHoursFestiveDay": 0,
+                        "extraHoursFestiveNight": 0,
+                        "valueTotalExtraHours": 0,
+                        "salaryNet": 244606
+                    },
+                    "educationEmployee": {
+                        "educationLevel": "Universitario",
+                        "educationTitle": "Ingeniero de Sistemas",
+                        "educationInstitution": "Universidad Nacional",
+                        "educationYear": 2015
+                    }
+                }
+            ]
+        }
+    ]
+}
